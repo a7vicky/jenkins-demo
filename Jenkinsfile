@@ -1,4 +1,4 @@
-peline {
+pipeline {
     agent any
     stages {
         stage ('S2I build sample java app') {
