@@ -28,7 +28,6 @@ spec:
                           def logsErr = result.actions[0].err
                           def buildSelector = bc.startBuild()
                           buildSelector.logs('-f')
-                            }
                         } 
                     }
                 }
