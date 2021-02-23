@@ -6,7 +6,7 @@ spec:
   strategy: 
     jenkinsPipelineStrategy: 
       jenkinsfile: |-
-          peline {
+          pipeline {
               agent any
                   stages {
                       stage ('S2I build sample java app') {
